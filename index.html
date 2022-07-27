@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="index.js">
+    <title>Geolocalización Por IP</title>
+</head>
+
+<body>
+    <main class="container">
+        <form id="form">
+            <label>IP a localizar
+                <input required id="input" type="text" placeholder="Introduzca la IP aquí">
+                <small>Ejemplo: 54.85.132.205</small>
+            </label>
+
+            <button id="submit" type="submit">Buscar información</button>
+        </form>
+
+        <div>
+            <pre id="results"></pre>
+        </div>
+    </main>
+
+</body>
+
+</html>
